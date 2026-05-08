@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>웹기초 3차시 - 자기소개 페이지</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- 1. 메뉴 영역 -->
+    <div class="buttons">
+        <a href="#"><button>menu1</button></a>
+        <a href="#"><button>menu2</button></a>
+        <a href="#"><button>menu3</button></a>
+        <a href="#"><button>menu4</button></a>
+    </div>
+
+    <!-- 2. 프로필 영역 -->
+    <div class="profile-section">
+        <table>
+            <tr>
+                <td>
+                    <div class="profile-card">
+                        <h1 class="name">김동현</h1>
+                        <p>11/12/2003</p>
+                        <p>경북대학교 컴퓨터학부</p>
+                    </div>
+                </td>
+                <td>
+                    <div>
+                        <img class="image" src="image.jpg">
+                    </div>
+                </td>
+            </tr>
+        </table>
+    </div>
+
+    
+    <div class="pnc-section">
+        <h1 class="pnc-title">단장점</h1>
+        <div class="pnc">
+            <div>
+                <h2>단점</h2>
+                <ol>
+                    <li>주의력 분산</li>
+                    <li>잠이 많음</li>
+                </ol>
+            </div>
+            <div>
+                <h2>장점</h2>
+                <ol>
+                    <li>놀라운 추진력</li>
+                    <li>엄청난 호기심</li>
+                </ol>
+            </div>
+        </div>
+    </div>
+
+    <!-- 4. 목표 영역 (제목과 내용을 하나의 박스로 묶음) -->
+    <div class="goals-section">
+        <h1>목표</h1> 
+        
+        <ul class="goals">
+            <li>1. 학점 3점대 만들기</li>
+            <li>2. 금주하기</li>
+            <li>3. 꾸준히 운동하기</li>
+            <li>4. 웃으면서 살기</li>
+        </ul>
+    </div>
+    
+
+    <section class="">
+
+    </section>
+    
+    <!-- 할일목록-->
+    <section class="goal-section">
+	<h2>새로운 목표</h2>
+	<p class="goal-description">
+    새로운 목표를 추가.
+	</p>
+
+	<div class="goal-input-box">
+		<input
+			id="goalInput"
+			type="text"
+			placeholder="예: JavaScript로 자기소개 페이지 완성하기"
+		>
+		<button id="addGoalBtn">추가</button>
+	</div>
+
+	<p id="errorMessage"></p>
+	
+	<ul id="goalList"></ul>
+</section>
+
+
+<script src="./script.js"></script>
+</body>
+</html>
