@@ -1,0 +1,240 @@
+
+body, h1, h2, p, ul, ol {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Noto Sans KR', sans-serif;
+    
+}
+
+
+.buttons {
+    background-color: bisque;
+    display: flex;
+    padding: 20px 0 50px 0; 
+}
+
+.buttons button {
+    border-radius: 20px;
+    background-color: aqua;
+    min-width: 100px;
+    margin-left: 50px;
+    margin-right: 100px;
+    width: 200px;
+    height: 70px;
+}
+
+.profile-section {
+    background-color: #639a67; /* 예시 사진과 비슷한 색상 */
+    padding: 50px 30px;
+}
+
+.profile-card {
+    border: 2px solid #184d11;
+    border-radius: 15px;
+    min-width: 180px;
+    padding: 30px;
+    color: white;
+}
+
+.image {
+
+    display: inline;
+    border-radius: 20px;
+    margin-left:850px;
+    align-items: right;
+    size: 100px;
+    width: 20%;
+
+}
+
+.name {
+    margin-bottom: 30px;
+}
+
+
+
+
+.pnc-section {
+    background-color: #388470; 
+    color: white;
+    padding: 50px 30px; 
+}
+
+.pnc-title {
+    margin-bottom: 30px;
+}
+
+.pnc {
+    display: flex;
+    gap: 550px; /* 장점과 단점 사이 간격 조절 */
+}
+
+.pnc ol {
+    padding-left: 20px; /* 리스트 들여쓰기 */
+    margin-top: 15px;
+}
+
+/* 4. 목표 영역 */
+.goals-section {
+    background-color: rgb(72, 191, 191);
+    color: white;
+    padding: 50px 30px; 
+}
+
+.goals-section h1 {
+    margin-bottom: 10px;
+}
+
+.goals {
+    display: flex;
+    flex-wrap: wrap; 
+    gap: 30px 100px; 
+    list-style: none;
+}
+
+.goals li {
+    width: 40%; 
+    font-size: 20px;
+}
+
+.goal-section {
+  margin-top:40px;
+  padding:24px;
+  /* border-radius:16px; */
+  background-color: #747383;
+  margin-bottom: 40px;
+}
+
+.goal-description {
+  color: #7941d5;
+}
+
+.goal-input-box {
+  display:flex;
+  gap:8px;
+  margin-top:16px;
+}
+
+#goalInput {
+  flex:1;
+  padding:10px;
+  border:1pxsolid #ddd;
+  border-radius:8px;
+  margin-bottom: 40px;
+}
+
+#addGoalBtn {
+  padding:10px16px;
+  border:none;
+  border-radius:8px;
+  cursor:pointer;
+}
+
+#errorMessage {
+  color:crimson;
+  min-height:20px;
+}
+
+#goalCount {
+  font-size:14px;
+  color: #555;
+}
+
+#goalList {
+  margin-top:16px;
+  padding-left:0;
+  list-style:none;
+}
+
+.goal-item {
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  gap:12px;
+  margin-bottom:8px;
+  padding:12px;
+  border-radius:10px;
+  background-color:white;
+}
+
+.goal-text {
+  cursor:pointer;
+}
+
+.goal-text.done {
+  color:gray;
+  text-decoration:line-through;
+}
+
+.delete-btn {
+  border:none;
+  background-color:transparent;
+  cursor:pointer;
+}
+
+.goal-section{
+  margin: 0;
+    padding: 0;
+}
+
+.guestbook-section {  
+  margin-top: 0px;
+  padding-top: 0px;
+  padding-bottom: 100px;
+  background-color: #199569;
+}
+
+.guestbook-section h1{
+  color: white;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+
+#my-msg{
+
+  color: white;
+  margin-bottom: 20px;
+}
+
+#guest-name {
+  margin-left: 20px;
+  margin-right: 20px;
+  width: 80px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+}
+
+#guest-msg {
+  width: 500px;
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+  margin-right: 20px;
+  
+}
+
+#guest-name:focus, #guest-msg:focus {
+  border-color: #30b38e;
+}
+
+#submit-btn {
+  
+  padding: 10px 15px;
+  background-color: white;
+  color: gray;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+#submit-btn:hover {
+  background-color: #1f1389;
+}
